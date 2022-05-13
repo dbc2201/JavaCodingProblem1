@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add test case 2">
+    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add test case 4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dbc/DuplicateCharactersCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dbc/DuplicateCharactersCounterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <recent name="io.github.dbc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DuplicateCharactersCounterTest.shouldThrowAnIllegalArgumentExceptionForNullInput">
+  <component name="RunManager" selected="JUnit.DuplicateCharactersCounterTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.dbc.Main" />
       <module name="JCP_C1_P1" />
@@ -138,9 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldThrowAnIllegalArgumentExceptionForNullInput" />
-        <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldReturnMapOfCorrectSize" />
         <item itemvalue="JUnit.DuplicateCharactersCounterTest" />
+        <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldReturnMapOfCorrectSize" />
+        <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldThrowAnIllegalArgumentExceptionForNullInput" />
         <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldReturnCount1ForNonDuplicat1Characters" />
         <item itemvalue="Application.Main" />
       </list>
@@ -154,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652464472009</updated>
-      <workItem from="1652464473799" duration="2057000" />
+      <workItem from="1652464473799" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652464516513</created>
@@ -212,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652467291387</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add test case 3">
+      <created>1652467612615</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652467612615</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add test case 4">
+      <created>1652467730509</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652467730509</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +251,9 @@
     <MESSAGE value="add code to run the countDuplicateCharacters() method in the main() method" />
     <MESSAGE value="add test case 1" />
     <MESSAGE value="add test case 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test case 2" />
+    <MESSAGE value="add test case 3" />
+    <MESSAGE value="add test case 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test case 4" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
