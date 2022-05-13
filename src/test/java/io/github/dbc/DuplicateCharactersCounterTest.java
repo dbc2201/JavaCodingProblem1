@@ -46,4 +46,15 @@ class DuplicateCharactersCounterTest {
     void shouldThrowAnIllegalArgumentExceptionForNullInput() {
         assertThrows(IllegalArgumentException.class, () -> counter.countDuplicateCharacters(null));
     }
+
+    @Test
+    @DisplayName("should return empty map for empty input")
+    void shouldReturnEmptyMapForEmptyInput() {
+        // Arrange
+        String input = "";
+        // Act
+        var characterIntegerMap = counter.countDuplicateCharacters(input);
+        // Assert
+        assertEquals(0, characterIntegerMap.size(), "the map should be empty");
+    }
 }
