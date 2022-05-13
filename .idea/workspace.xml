@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add code to run the countDuplicateCharacters() method in the main() method">
+    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add test case 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dbc/DuplicateCharactersCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dbc/DuplicateCharactersCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dbc/DuplicateCharactersCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dbc/DuplicateCharactersCounterTest.java" afterDir="false" />
     </list>
@@ -59,7 +60,7 @@
       <recent name="io.github.dbc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DuplicateCharactersCounterTest.shouldReturnCount1ForNonDuplicat1Characters">
+  <component name="RunManager" selected="JUnit.DuplicateCharactersCounterTest.shouldReturnMapOfCorrectSize">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.dbc.Main" />
       <module name="JCP_C1_P1" />
@@ -69,6 +70,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplicateCharactersCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JCP_C1_P1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.dbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.dbc" />
+      <option name="MAIN_CLASS_NAME" value="io.github.dbc.DuplicateCharactersCounterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,8 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DuplicateCharactersCounterTest.shouldReturnMapOfCorrectSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JCP_C1_P1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.dbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.dbc" />
+      <option name="MAIN_CLASS_NAME" value="io.github.dbc.DuplicateCharactersCounterTest" />
+      <option name="METHOD_NAME" value="shouldReturnMapOfCorrectSize(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldReturnMapOfCorrectSize" />
+        <item itemvalue="JUnit.DuplicateCharactersCounterTest" />
         <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldReturnCount1ForNonDuplicat1Characters" />
         <item itemvalue="Application.Main" />
       </list>
@@ -104,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652464472009</updated>
-      <workItem from="1652464473799" duration="1403000" />
+      <workItem from="1652464473799" duration="1742000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652464516513</created>
@@ -148,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652466510354</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add test case 1">
+      <created>1652466931176</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652466931176</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +211,8 @@
     <MESSAGE value="add the starter code" />
     <MESSAGE value="add the test class" />
     <MESSAGE value="add code to run the countDuplicateCharacters() method in the main() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code to run the countDuplicateCharacters() method in the main() method" />
+    <MESSAGE value="add test case 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test case 1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

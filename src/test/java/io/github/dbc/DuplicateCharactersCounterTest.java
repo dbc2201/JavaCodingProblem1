@@ -3,6 +3,8 @@ package io.github.dbc;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -12,6 +14,17 @@ class DuplicateCharactersCounterTest {
     @BeforeEach
     void setUp() {
         counter = new DuplicateCharactersCounter();
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"abcdefghijklmnopqrstuvwxyz", "dbc", "A", "1234567890"})
+    @DisplayName("should return map of correct size")
+    void shouldReturnMapOfCorrectSize(String input) {
+        // Act
+        var characterIntegerMap = counter.countDuplicateCharacters(input);
+        // Assert
+        assertEquals(input.length(), characterIntegerMap.size(),
+                "the map should have the same size as the input string");
     }
 
     @Test
