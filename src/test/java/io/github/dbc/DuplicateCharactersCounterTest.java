@@ -7,6 +7,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class DuplicateCharactersCounterTest {
     private DuplicateCharactersCounter counter;
@@ -38,5 +39,11 @@ class DuplicateCharactersCounterTest {
         var count = characterIntegerMap.get('a');
         // Assert
         assertEquals(1, count, "the count value for all non duplicate characters should be 1");
+    }
+
+    @Test
+    @DisplayName("should throw an IllegalArgumentException for null input")
+    void shouldThrowAnIllegalArgumentExceptionForNullInput() {
+        assertThrows(IllegalArgumentException.class, () -> counter.countDuplicateCharacters(null));
     }
 }
