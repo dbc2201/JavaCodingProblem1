@@ -4,6 +4,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.EmptySource;
+import org.junit.jupiter.params.provider.NullSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -41,17 +43,17 @@ class DuplicateCharactersCounterTest {
         assertEquals(1, count, "the count value for all non duplicate characters should be 1");
     }
 
-    @Test
+    @ParameterizedTest
+    @NullSource
     @DisplayName("should throw an IllegalArgumentException for null input")
-    void shouldThrowAnIllegalArgumentExceptionForNullInput() {
-        assertThrows(IllegalArgumentException.class, () -> counter.countDuplicateCharacters(null));
+    void shouldThrowAnIllegalArgumentExceptionForNullInput(String input) {
+        assertThrows(IllegalArgumentException.class, () -> counter.countDuplicateCharacters(input));
     }
 
-    @Test
+    @ParameterizedTest
+    @EmptySource
     @DisplayName("should return empty map for empty input")
-    void shouldReturnEmptyMapForEmptyInput() {
-        // Arrange
-        String input = "";
+    void shouldReturnEmptyMapForEmptyInput(String input) {
         // Act
         var characterIntegerMap = counter.countDuplicateCharacters(input);
         // Assert
