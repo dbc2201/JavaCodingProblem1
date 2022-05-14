@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add links and citation" />
+    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add better name for printing names of parameterized test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,6 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652464472009</updated>
       <workItem from="1652464473799" duration="3459000" />
+      <workItem from="1652551743403" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652464516513</created>
@@ -239,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652468435970</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add better name for printing names of parameterized test">
+      <created>1652551923621</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1652551923621</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +276,8 @@
     <MESSAGE value="add 1 more value for the first test" />
     <MESSAGE value="add sample input and sample output in the README.md" />
     <MESSAGE value="add links and citation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add links and citation" />
+    <MESSAGE value="add better name for printing names of parameterized test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add better name for printing names of parameterized test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
