@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add sample input and sample output in the README.md">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add links and citation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,17 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "true",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -59,7 +57,7 @@
       <recent name="io.github.dbc" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Scratch">
+  <component name="RunManager" selected="JUnit.DuplicateCharactersCounterTest.shouldReturnMapOfCorrectSize">
     <configuration name="DuplicateCharactersCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JCP_C1_P1" />
       <extension name="coverage">
@@ -132,9 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldReturnMapOfCorrectSize" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="JUnit.DuplicateCharactersCounterTest" />
-        <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldReturnMapOfCorrectSize" />
         <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldThrowAnIllegalArgumentExceptionForNullInput" />
         <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldReturnCount1ForNonDuplicat1Characters" />
       </list>
@@ -148,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652464472009</updated>
-      <workItem from="1652464473799" duration="2983000" />
+      <workItem from="1652464473799" duration="3459000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652464516513</created>
@@ -234,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652467935271</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add links and citation">
+      <created>1652468435970</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1652468435970</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +267,8 @@
     <MESSAGE value="add test case 4" />
     <MESSAGE value="add 1 more value for the first test" />
     <MESSAGE value="add sample input and sample output in the README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sample input and sample output in the README.md" />
+    <MESSAGE value="add links and citation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add links and citation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

@@ -17,7 +17,7 @@ class DuplicateCharactersCounterTest {
         counter = new DuplicateCharactersCounter();
     }
 
-    @ParameterizedTest
+    @ParameterizedTest(name = "countDuplicateCharacters(\"{arguments}\")")
     @ValueSource(strings = {"abcdefghijklmnopqrstuvwxyz", "dbc", "A", "1234567890", " "})
     @DisplayName("should return map of correct size")
     void shouldReturnMapOfCorrectSize(String input) {
