@@ -28,7 +28,8 @@ Write a program that counts duplicate characters from a given `String`.
 
 ---
 > Question taken from the book
-> ["Java Coding Problems"](https://www.packtpub.com/product/java-coding-problems/9781789801415) by Anghel Leonard.  
+> ["Java Coding Problems"](https://www.packtpub.com/product/java-coding-problems/9781789801415) by
+> [Anghel Leonard](https://github.com/AnghelLeonard).  
 > Formatted and uploaded by [dbc2201](https://github.com/dbc2201)
 
 ---
