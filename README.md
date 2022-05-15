@@ -4,7 +4,7 @@
 
 ---
 
-### Problem Statement
+### Problem Statement : Counting Duplicate Characters
 
 Write a program that counts duplicate characters from a given `String`.
 
