@@ -43,14 +43,14 @@ class DuplicateCharactersCounterTest {
         assertEquals(1, count, "the count value for all non duplicate characters should be 1");
     }
 
-    @ParameterizedTest
+    @ParameterizedTest(name = "countDuplicateCharacters({arguments})")
     @NullSource
     @DisplayName("should throw an IllegalArgumentException for null input")
     void shouldThrowAnIllegalArgumentExceptionForNullInput(String input) {
         assertThrows(IllegalArgumentException.class, () -> counter.countDuplicateCharacters(input));
     }
 
-    @ParameterizedTest
+    @ParameterizedTest(name = "countDuplicateCharacters(\"{arguments}\")")
     @EmptySource
     @DisplayName("should return empty map for empty input")
     void shouldReturnEmptyMapForEmptyInput(String input) {

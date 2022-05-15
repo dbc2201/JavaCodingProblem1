@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="make test file read-only" />
+    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="use the @NullSource and @EmptySource annotations for tests">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dbc/DuplicateCharactersCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dbc/DuplicateCharactersCounterTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +30,7 @@
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/io/github/dbc/DuplicateCharactersCounter.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/io/github/dbc/Main.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/io/github/dbc/DuplicateCharactersCounterTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/io/github/dbc/DuplicateCharactersCounterTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,17 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/divya/Exercism/java/need-for-speed",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -58,7 +63,7 @@
       <recent name="io.github.dbc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DuplicateCharactersCounterTest.shouldReturnEmptyMapForEmptyInput">
+  <component name="RunManager" selected="JUnit.DuplicateCharactersCounterTest">
     <configuration name="DuplicateCharactersCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JCP_C1_P1" />
       <extension name="coverage">
@@ -131,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DuplicateCharactersCounterTest" />
         <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldReturnEmptyMapForEmptyInput" />
         <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldThrowAnIllegalArgumentExceptionForNullInput (1)" />
         <item itemvalue="JUnit.DuplicateCharactersCounterTest.shouldReturnMapOfCorrectSize" />
         <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="JUnit.DuplicateCharactersCounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +153,9 @@
       <option name="presentableId" value="Default" />
       <updated>1652464472009</updated>
       <workItem from="1652464473799" duration="3459000" />
-      <workItem from="1652551743403" duration="1021000" />
+      <workItem from="1652551743403" duration="2511000" />
+      <workItem from="1652622259082" duration="160000" />
+      <workItem from="1652631231540" duration="1068000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652464516513</created>
@@ -255,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652552720625</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="use the @NullSource and @EmptySource annotations for tests">
+      <created>1652553063899</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652553063899</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +300,8 @@
     <MESSAGE value="add links and citation" />
     <MESSAGE value="add better name for printing names of parameterized test" />
     <MESSAGE value="make test file read-only" />
-    <option name="LAST_COMMIT_MESSAGE" value="make test file read-only" />
+    <MESSAGE value="use the @NullSource and @EmptySource annotations for tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="use the @NullSource and @EmptySource annotations for tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
