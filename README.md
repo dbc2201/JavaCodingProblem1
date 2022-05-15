@@ -30,3 +30,10 @@ Write a program that counts duplicate characters from a given `String`.
 > Question taken from the book
 > ["Java Coding Problems"](https://www.packtpub.com/product/java-coding-problems/9781789801415) by Anghel Leonard.  
 > Formatted and uploaded by [dbc2201](https://github.com/dbc2201)
+
+---
+
+**Suggested Reading:**
+
+1. [HashMap (Java SE 18 & JDK 18)](https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/HashMap.html)
+2. [Managing the Content of a Map (dev.java)](https://dev.java/learn/managing-the-content-of-a-map/)
