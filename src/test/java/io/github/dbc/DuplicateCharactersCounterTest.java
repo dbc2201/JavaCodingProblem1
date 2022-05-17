@@ -26,8 +26,7 @@ class DuplicateCharactersCounterTest {
         // Act
         var characterIntegerMap = counter.countDuplicateCharacters(input);
         // Assert
-        assertEquals(input.length(), characterIntegerMap.size(),
-                "the map should have the same size as the input string");
+        assertEquals(input.length(), characterIntegerMap.size(), "the map should have the same size as the input string");
     }
 
     @Test
