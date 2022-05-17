@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="change maven target version to 11">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add maven plugins to run junit5 test with maven">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,7 @@
       <workItem from="1652622259082" duration="160000" />
       <workItem from="1652631231540" duration="1640000" />
       <workItem from="1652638374278" duration="312000" />
-      <workItem from="1652815591071" duration="1996000" />
+      <workItem from="1652815591071" duration="2395000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652464516513</created>
@@ -295,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652816083393</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add maven plugins to run junit5 test with maven">
+      <created>1652819174296</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1652819174296</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,7 +335,8 @@
     <MESSAGE value="use the @NullSource and @EmptySource annotations for tests" />
     <MESSAGE value="add proper test names" />
     <MESSAGE value="change maven target version to 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="change maven target version to 11" />
+    <MESSAGE value="add maven plugins to run junit5 test with maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="add maven plugins to run junit5 test with maven" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
