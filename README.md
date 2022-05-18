@@ -1,4 +1,4 @@
-[![Test Case Report](https://github.com/dbc2201/JavaCodingProblem1/actions/workflows/maven.yml/badge.svg?event=push)](https://github.com/dbc2201/JavaCodingProblem1/actions/workflows/maven.yml)
+[![Test Case Report](https://github.com/dbc2201/JavaCodingProblem1/actions/workflows/maven.yml/badge.svg?event=push)](https://github.com/dbc2201/JavaCodingProblem1/actions/workflows/maven.yml) [![Lint Code Base](https://github.com/dbc2201/JavaCodingProblem1/actions/workflows/super-linter.yml/badge.svg)](https://github.com/dbc2201/JavaCodingProblem1/actions/workflows/super-linter.yml)
 # Java Coding Problems
 
 ## Chapter 1: Strings, Numbers, and Math
